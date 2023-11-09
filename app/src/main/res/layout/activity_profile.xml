@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cream"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/top_card"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_back"
+            style="@style/back"
+            android:layout_width="58dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:drawableLeft="@drawable/arrow_left_solid"
+            app:iconTint="@color/black" />
+        <TextView
+            android:id="@+id/id_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROFILE"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginStart="12dp"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_logout"
+            style="@style/back"
+            android:layout_width="58dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="105dp"
+            android:drawableLeft="@drawable/right_from_bracket_solid"
+            app:iconTint="@color/black"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/profile_1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/user_2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap"
+                android:layout_marginHorizontal="30dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/tv_1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/kotak_tv"
+                android:ems="5"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_marginHorizontal="30dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/tv_2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/kotak_tv"
+                android:ems="5"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:layout_marginHorizontal="30dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/tv_3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/kotak_tv"
+                android:ems="5"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mata Kuliah"
+                android:layout_marginHorizontal="30dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/tv_4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/kotak_tv"
+                android:ems="5"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="5dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_edit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:text="Edit Profile"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/navy"
+                android:layout_marginVertical="30dp"
+                android:textAllCaps="false"
+                style="@style/button"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

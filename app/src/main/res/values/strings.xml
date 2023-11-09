@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">UTS</string>
+    <string name="title">
+        Discover Your
+        \nDream Job here
+    </string>
+    <string name="sub_title">
+        Explore all the existing job roles based on your
+        \ninterest and study major
+    </string>
+    <string name="sub_login">
+        Welcome back you’ve
+        \nbeen missed!
+    </string>
+    <string name="sub_register">
+        Create an account so you can explore all the
+        \nexisting jobs
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
